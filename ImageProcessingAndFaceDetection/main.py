@@ -30,7 +30,7 @@ while 1:
 
       #save one of the images with a different extension
       try:
-            img.save(r'/home/andrei/Desktop/IA/13Dec/images/index.png')
+            img.save(r'images/index.png')
       except FileExistsError():
             print('File already exists')
 
