@@ -2,11 +2,11 @@ import cv2 as cv
 from PIL import Image
 from PIL import ImageDraw
 
-image = cv.imread('/home/andrei/Desktop/IA/13Dec/images/grupseniori.jpg')
+image = cv.imread('path/to/grupseniori.jpg')
 gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
-face_cascade = cv.CascadeClassifier('/home/andrei/Desktop/IA/13Dec/clasificatori/haarcascade_frontalface_default.xml')
-eye_cascade = cv.CascadeClassifier('/home/andrei/Desktop/IA/13Dec/clasificatori/haarcascade_eye.xml')
+face_cascade = cv.CascadeClassifier('path/to/haarcascade_frontalface_default.xml')
+eye_cascade = cv.CascadeClassifier('path/to/haarcascade_eye.xml')
 
 #draw a rectangle around the faces
 def show_drept(faces):
