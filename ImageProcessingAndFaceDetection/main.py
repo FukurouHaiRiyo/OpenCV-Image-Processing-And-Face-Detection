@@ -5,8 +5,8 @@ from PIL import ImageFilter
 
 
 #load the images
-img = Image.open('/home/andrei/Desktop/IA/13Dec/images/index.jpeg')
-img1 = Image.open('/home/andrei/Desktop/IA/13Dec/images/index1.jpeg')
+img = Image.open('path/to/index.jpeg')
+img1 = Image.open('path/to/index1.jpeg')
 
 print('''
 1. Display images
